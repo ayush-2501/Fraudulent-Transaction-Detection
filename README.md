@@ -1,4 +1,12 @@
 # Fraudulent-Transaction-Detection
+
+## Business Context
+This case needs us to create a model for anticipating fraudulent transactions for a financial business and then utilize the model's insights to create an actionable strategy. The case data is provided in CSV format, including 6362620 rows and 10 columns.
+
+The model would be estimated on the calibration data and evaluated on the validation data using standard model development processes. This situation necessitates both statistical analysis and creative/judgmental thinking. 
+
+
+## Conclusion
 Reasons to use Random Forest & Decision Tree
 
 We have seen that, while Random Forest has greater precision, accuracy for both it and Decision Tree is equal. Precision is crucial in a fraud detection model because, instead of correctly predicting legitimate transactions, we want to predict fraudulent ones while ignoring legitimate ones. If either of the two conditions is not met, we risk catching the innocent person while ignoring the offender.
